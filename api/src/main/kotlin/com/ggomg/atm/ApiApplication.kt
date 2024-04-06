@@ -1,4 +1,4 @@
-package com.ggomg.attendanceManagement
+package com.ggomg.atm
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

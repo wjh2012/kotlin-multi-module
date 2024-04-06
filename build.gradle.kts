@@ -33,6 +33,7 @@ subprojects {
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
         annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+        kapt("org.springframework.boot:spring-boot-configuration-processor")
 
         testImplementation("org.springframework.boot:spring-boot-starter-test")
         testImplementation("org.springframework.security:spring-security-test")
