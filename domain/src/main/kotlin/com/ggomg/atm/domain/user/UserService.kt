@@ -4,13 +4,14 @@ import org.springframework.stereotype.Service
 
 @Service
 class UserService(
-    private val userRepository: UserRepository
+    private val userWriter: UserWriter,
+    private val userReader: UserReader
 ) {
     fun write(name: String): Long {
-        return userRepository.write(name)
+        return userWriter.write(name)
     }
 
     fun read(id: Long): User? {
-        return userRepository.read(id)
+        return userReader.read(id)
     }
 }

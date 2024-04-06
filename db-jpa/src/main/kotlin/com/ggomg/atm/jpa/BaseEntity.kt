@@ -15,9 +15,9 @@ abstract class BaseEntity {
     val id: Long? = null
 
     @CreatedDate
-    val createdAt: LocalDateTime? = null
+    val createdDate: LocalDateTime? = null
 
     @LastModifiedDate
-    var updatedAt: LocalDateTime? = null
+    var modifiedDate: LocalDateTime? = null
         protected set
 }
