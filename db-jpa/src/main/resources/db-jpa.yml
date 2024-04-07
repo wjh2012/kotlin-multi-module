@@ -1,13 +1,14 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:atm
+    #    url: jdbc:h2:mem:atm
+    url: jdbc:h2:tcp://localhost/~/Desktop/h2-2022-06-13/h2/bin/test
     username: sa
     password:
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
     properties:
       hibernate:
         show_sql: true

@@ -11,7 +11,7 @@ class UserService(
         return userWriter.write(name)
     }
 
-    fun read(id: Long): User? {
+    fun read(id: Long): User {
         return userReader.read(id)
     }
 }
