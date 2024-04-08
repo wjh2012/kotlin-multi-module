@@ -1,9 +1,7 @@
-package com.ggomg.atm.jpa.user
+package com.ggomg.atm.jpa.group
 
 import com.ggomg.atm.domain.group.Group
 import com.ggomg.atm.domain.group.GroupRepository
-import com.ggomg.atm.domain.user.User
-import com.ggomg.atm.domain.user.UserRepository
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Repository
 

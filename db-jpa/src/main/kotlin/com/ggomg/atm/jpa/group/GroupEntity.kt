@@ -1,4 +1,4 @@
-package com.ggomg.atm.jpa.user
+package com.ggomg.atm.jpa.group
 
 import com.ggomg.atm.jpa.BaseEntity
 import jakarta.persistence.Entity

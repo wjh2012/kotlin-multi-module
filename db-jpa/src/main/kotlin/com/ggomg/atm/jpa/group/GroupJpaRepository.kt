@@ -1,4 +1,4 @@
-package com.ggomg.atm.jpa.user
+package com.ggomg.atm.jpa.group
 
 import org.springframework.data.jpa.repository.JpaRepository
 
