@@ -7,10 +7,10 @@ tasks.getByName("jar") {
 }
 
 dependencies {
-    implementation(project(":security-token"))
-    implementation(project(":api"))
-    implementation(project(":domain"))
-    implementation(project(":db-jpa"))
+    implementation(project(":app-security-token"))
+    implementation(project(":app-api"))
+    implementation(project(":app-domain"))
+    implementation(project(":app-db-jpa"))
 
     compileOnly("org.springframework.boot:spring-boot-starter")
 }

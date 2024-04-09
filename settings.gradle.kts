@@ -3,8 +3,8 @@ plugins {
 }
 rootProject.name = "AttendanceManagement"
 
-include("app")
-include("security-token")
-include("api")
-include("domain")
-include("db-jpa")
+include("app-runner")
+include("app-security-token")
+include("app-api")
+include("app-domain")
+include("app-db-jpa")
