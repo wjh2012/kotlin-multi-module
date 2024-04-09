@@ -11,15 +11,14 @@ internal class UserEntityRepository(
 ) : UserRepository {
     override fun write(name: String): Long {
         return userJpaRepository.save(
-            UserEntity(name = name)
+            UserEntity(username = name)
         ).id!!
     }
 
     override fun read(id: Long): User? {
         return userJpaRepository.findByIdOrNull(id)?.let {
             User(
-                id = it.id!!,
-                name = it.name
+                username = it.username
             )
         }
     }

@@ -5,5 +5,5 @@ import jakarta.persistence.Entity
 
 @Entity
 internal class UserEntity(
-    val name: String,
+    val username: String,
 ) : BaseEntity()

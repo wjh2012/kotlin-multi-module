@@ -5,5 +5,5 @@ import com.ggomg.atm.domain.user.User
 data class UserResponse(
     val name: String
 ) {
-    constructor(user: User) : this(user.name)
+    constructor(user: User) : this(user.username)
 }
