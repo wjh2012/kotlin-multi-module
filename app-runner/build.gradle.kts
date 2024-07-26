@@ -7,7 +7,7 @@ tasks.getByName("jar") {
 }
 
 dependencies {
-    implementation(project(":app-security-token"))
+//    implementation(project(":app-security-token"))
     implementation(project(":app-api"))
     implementation(project(":app-domain"))
     implementation(project(":app-db-jpa"))
